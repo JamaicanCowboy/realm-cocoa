@@ -116,16 +116,7 @@ let package = Package(
         .target(
             name: "RealmSwift",
             dependencies: ["Realm"],
-            path: "RealmSwift",
-            exclude: [
-                "Sync.swift",
-                "BSON.swift",
-                "App.swift",
-                "MongoClient.swift",
-                "ObjectiveCSupport+Sync.swift",
-                "ObjectiveCSupport+BSON.swift",
-                "Tests",
-            ]
+            path: "RealmSwift"
         ),
         .target(
             name: "RealmTestSupport",
